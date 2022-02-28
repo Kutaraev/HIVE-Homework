@@ -18,5 +18,4 @@ result = cursor.fetchall()
 cursor.close()
 conn.close()
 
-print('Longest period of stay of couples with children')
-print(result)
+print('Longest period of stay of couples with children: ' + str(result[0][0]))
