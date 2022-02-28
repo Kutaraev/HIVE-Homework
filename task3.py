@@ -20,4 +20,9 @@ cursor.close()
 conn.close()
 
 print('Top 3 most popular not booked hotels:')
-print(result)
+print('Hotel 1: ' + str(result[0][0]) +', '+ str(result[0][1]) +',
+ '+ str(result[0][2]) + ' with searches ' + str(result[0][3]))
+print('Hotel 2: ' + str(result[1][0]) +', '+ str(result[1][1]) +',
+ '+ str(result[1][2]) + ' with searches ' + str(result[1][3]))
+print('Hotel 3: ' + str(result[2][0]) +', '+ str(result[2][1]) +',
+ '+ str(result[2][2]) + ' with searches ' + str(result[2][3]))
